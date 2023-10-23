@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.TilesMaster", "01.TileMaster\01.TilesMaster.csproj", "{6ECD63F2-1963-4708-835D-281221BCE2EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ECD63F2-1963-4708-835D-281221BCE2EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ECD63F2-1963-4708-835D-281221BCE2EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ECD63F2-1963-4708-835D-281221BCE2EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ECD63F2-1963-4708-835D-281221BCE2EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5FDE5F8-62C9-4E3A-A8B5-764A988317AD}
+	EndGlobalSection
+EndGlobal
