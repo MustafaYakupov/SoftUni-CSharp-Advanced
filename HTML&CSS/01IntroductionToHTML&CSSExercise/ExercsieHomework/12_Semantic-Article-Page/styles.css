@@ -1,0 +1,29 @@
+article { 
+	padding: 5px 15px;
+	font-style: italic;
+	color: #5c6e91;
+	background-color: #e4e978;
+	width: 700px;
+	border: 1px solid #b2ad7d;
+	margin: 15px 10px;
+}
+
+.inner-article {
+    padding: 5px 15px;
+	font-style: italic;
+	color: #4c7658;
+	background-color: #f2f4c0;
+	width: 638px;
+	border: 1px solid #b2ad7d;
+	margin: 15px 15px;
+}
+
+.inner-header {
+    padding: 5px 15px;
+	font-style: italic;
+	color: #5c6e91;
+	background-color: #f2f4c0;
+	width: 638px;
+	border: 1px solid #b2ad7d;
+	margin: 15px 15px;
+}

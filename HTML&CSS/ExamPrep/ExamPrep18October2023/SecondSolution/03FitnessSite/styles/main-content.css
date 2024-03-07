@@ -1,0 +1,83 @@
+.section-main-content {
+    background-color: white;
+}
+
+.section-main-content .container {
+    padding: 2em;
+}
+
+.section-main-content .content {
+    display: flex;
+    gap: 2em;
+}
+
+.section-main-content .content article {
+    flex: 1 1 30%;
+    text-align: center;
+    padding: 0 4em;
+}
+
+.section-main-content .container h3 {
+    text-align: center;
+    padding: 2em 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.section-features {
+    padding-bottom: 2em;
+}
+
+.section-features .content {
+    padding: 0 6em;
+}
+
+.section-features img {
+    width: 15%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.section-features h4 {
+    color: #D01919;
+    margin-bottom: 1em;
+}
+
+.section-coaches {
+    padding-bottom: 3em;
+}
+
+.section-coaches p {
+    color: grey;
+    padding: 0 1em;
+    margin-top: 1em;
+}
+
+.section-coaches .media {
+    overflow: hidden;
+    border-radius: 0.3em;
+}
+
+.section-coaches h4 {
+    font-weight: bold;
+    color: black;
+    padding: 0.5em 0;
+}
+
+.section-coaches h5 {
+    color: #D01919;
+    font-weight: bold;
+}
+
+.section-main-content h3 span {
+    display: block;
+    background-color: #D01919;
+    margin: 1em auto;
+    width: 2.5em;
+    height: 2px;
+}
+
+.section-coaches article p {
+    padding-left: 2em;
+    padding-right: 2em;
+}

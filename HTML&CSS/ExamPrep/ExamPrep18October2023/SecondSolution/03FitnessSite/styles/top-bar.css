@@ -1,0 +1,32 @@
+.section-top-bar {
+    background-color: #D01919;
+    color: white;
+}
+
+.section-top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    max-width: 100%;
+}
+
+.section-top-bar .socials {
+    display: flex;
+    text-decoration: none;
+}
+
+.section-top-bar .socials  li,
+.section-top-bar .socials  a {
+    display: block;
+    text-decoration: none;
+    padding: 0 0.5em;
+    color: white;
+}
+
+.section-top-bar .socials span {
+    display: none;
+}
+
+.section-top-bar .container i {
+    padding: 0 0.5em;
+}

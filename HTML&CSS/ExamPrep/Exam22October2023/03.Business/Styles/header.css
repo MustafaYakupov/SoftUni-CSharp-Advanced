@@ -1,0 +1,24 @@
+.header .container {
+    max-width: 60em;
+    margin-left: 9.5em;
+    height: 20em;
+    padding-right: 25em;
+    color: white;
+    height: 46em;
+    margin-left: 15em;
+}
+
+.header h1 {
+    font-weight: normal;
+    font-size: 5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 10.6em;
+}
+
+.header p {
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.5;
+    width: 36.1em;
+}

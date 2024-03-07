@@ -1,0 +1,11 @@
+
+.container {
+    max-width: 95em;
+    margin: 0 auto;
+}
+
+.header-media img {
+    display: block;
+    width: 100%;
+    height: 42em;
+}

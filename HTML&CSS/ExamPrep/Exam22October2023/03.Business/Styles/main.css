@@ -1,0 +1,82 @@
+.business-objectives,
+.sponsors,
+.partners  {
+    background-color: white;
+    padding: 2em 0;
+}
+
+.business-objectives .container {
+    display: flex;
+    gap: 2em;
+}
+
+.business-objectives .button a {
+    display: inline-block;
+    border: 2px solid #b78d6a;
+    text-decoration: none;
+    color: #b78d6a;
+    font-weight: bold;
+    padding: 0.5em 1em;
+}
+
+.business-objectives .container {
+    padding: 3em 0;
+}
+
+.business-objectives h2 {
+    font-size: 3em;
+    font-weight: normal;
+    padding-bottom: 1em;
+}
+
+.business-objectives p  {
+    padding-bottom: 2em;
+    line-height: 1.5;
+}
+
+.business-objectives article {
+    max-width: 40em;
+    font-size: 1.5em;
+
+}
+
+.sponsors h2,
+.partners h2 {
+    font-size: 3em;
+    font-weight: normal;
+    padding-bottom: 1em;
+    color: #b78d6a;
+    text-align: center;
+}
+
+.sponsors p,
+.partners p {
+    text-align: center;
+    color: grey;
+    line-height: 1.5;
+    font-size: 1.5em;
+    padding-bottom: 2em;
+}
+
+.sponsors .media {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.sponsors .media .image {
+    max-width: 10%;
+    background-color: #dddddd;
+    border-radius: 6em;
+    padding: 2em;
+}
+
+
+
+span {
+    align-self: center;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+}

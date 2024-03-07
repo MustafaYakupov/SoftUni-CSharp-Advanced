@@ -1,0 +1,33 @@
+.section-banner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 2em;
+    height: 39em;
+}
+
+.section-banner {
+    color: white;
+    font-size: 1.2em;
+}
+
+.section-banner .cta a {
+    color: white;
+    text-decoration: none;
+    background-color: #D01919;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+}
+
+.section-banner h2 {
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    font-weight: normal;
+}
+
+.section-banner p {
+    max-width: 54ch;
+    text-align: center;
+    margin: 1em auto;
+}

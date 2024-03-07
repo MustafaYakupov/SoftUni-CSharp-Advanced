@@ -1,0 +1,60 @@
+.top-bar {
+    color: #313131;
+}
+
+.top-bar .logo {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.top-bar .line {
+    display: inline-block;
+    height: 2em;
+    width: 2px;
+    background-color: #dbdbdb;
+    margin: 0 1em;
+}
+
+.top-bar .by {
+    color: #808080;
+    font-weight: 490;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+.top-bar .small-text {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.top-bar .container {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.top-bar .nav {
+    display: flex;
+}
+
+.top-bar .nav li,
+.top-bar .nav  a {
+    display: inline-block;
+    padding: 0;
+    color: black;
+    background-color: #ececec;
+    text-decoration: none;
+    color: #696969;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.top-bar .nav li .green {
+    background-color: #56dbb1;
+    color: black;
+}
+
+.top-bar .nav ul li a {
+    padding: 1em;
+}

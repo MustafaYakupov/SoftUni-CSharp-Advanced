@@ -1,0 +1,28 @@
+.section-header .container {
+    display: flex;
+    max-width: 100%;
+    justify-content: flex-end;
+    padding: 1.5em;
+}
+
+.section-header .container .site-title {
+    display: none;
+}
+
+.section-header .main-nav {
+    display: flex;
+}
+
+.section-header .main-nav li,
+.section-header .main-nav a {
+    display: block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.section-header .main-nav li a {
+    font-size: 1.2em;
+    padding-left: 2em;
+    padding-right: 4em;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 12px/1.5 Poppins, sans-serif;
+}
+
+.container {
+    max-width: 100em;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.container .header {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.container .header h1 {
+    font-size: 3em;
+}
+
+.container .header h1 span{
+    color: #327dc4;
+}
+
+.container .header p {
+    letter-spacing: 1px;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+.container .main {
+    display: flex;
+    gap: 1.5em;
+
+}
+
+.container .main article {
+    flex: 1 1 30%;
+    border-radius: 1em;
+    background-color: #819daf;
+}
+
+.container .main article img{
+    border-radius: 1em;
+}
+
+.container .main .text {
+    padding: 2em;
+}
+
+.container .main .text h2 {
+    padding-bottom: 1em;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.container .main .text p {
+    font-size: 1.3em;
+    padding: 1em 0;
+}
+
+.container .main .text p .button{
+    margin-bottom: 0;
+}
+
+.container .main .text .button {
+    border: 1px solid #353fc4;
+    text-decoration: none;
+    padding: 0.3em 1.2em;
+    color: white;
+    outline: 1px solid white;
+    border-radius: 3em;
+    background-color: #327dc4;
+}
+

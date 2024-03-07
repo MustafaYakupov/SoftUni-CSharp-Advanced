@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+ @media (min-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+ }
+
+ @media (min-width: 900px) {
+    html {
+        font-size: 16px;
+    }
+ }
+
+ @media (min-width: 1200px) {
+    html {
+        font-size: 18px;
+    }
+ }
+
+ @media (min-width: 1400px) {
+    html {
+        font-size: 20px;
+    }
+ }
+
+body, table, input, button {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    font-weight: normal;
+}
+
+h1 {font-size: 3em;}
+h2 {font-size: 2.4em;}
+h3 {font-size: 1.8em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em; font-weight: bold;}
+h6 {font-size: 1em; font-weight: bold;}
+
+p, * + ul, * + ol {
+    padding-bottom: 1.5em;
+}
+
+ul, ol, blockquote {
+    padding-left: 1.5em;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+ 
+blockquote {
+    border-left: 4px solid #CCC;
+    margin-bottom: 1.5em;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+blockquote p:first-child::before,
+blockquote p:nth-last-child(2):not(.author):after {
+    display: inline-block;
+    content: '"';
+    font-size: 1.2em;
+    color: black;
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+blockquote p.author {
+    text-align: right;
+}
+
+blockquote p.author:before {
+    display: inline-block;
+    content: '—';
+    padding-right: 0.5em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border: 2px solid #CCC;
+    padding: 0.5em;
+}
+
+img[class^="align"] {
+    margin-bottom: 0.5em;
+}
+
+img.align-left {
+    float:left;
+    margin-right: 1em;
+}
+
+img.align-right {
+    float:right;
+    margin-left: 1em;
+}
+
+hr {
+    border: 1px solid #666;
+    margin: 2em 0;
+}
+
+table {
+    width: 100%;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 0.5em 0.7em;
+}
+
+table thead th {
+    background: rgb(63, 62, 62);
+}
+
+table tbody tr:nth-child(even) td {
+    background: rgb(63, 62, 62);
+}

@@ -1,0 +1,26 @@
+body {
+    background-image: url(../image/fitness-main.jpg);
+    background-size: contain;
+    background-position: center -24em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-footer {
+    background-color: #D01919;
+    color: white;
+}
+
+.section-footer p {
+    text-align: center;
+    padding: 1em;
+}

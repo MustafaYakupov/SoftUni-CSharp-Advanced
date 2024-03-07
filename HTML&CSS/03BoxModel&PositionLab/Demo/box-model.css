@@ -1,0 +1,34 @@
+html {
+    box-sizing: ;
+}
+
+body {
+    background: #eee;
+}
+
+.margin {
+    background-color: orange;
+    padding: 1em;
+}
+
+
+.border {
+    padding: 0.5em;
+    background: lightgreen;
+}
+
+.padding {
+    padding: 1em;
+    background: greenyellow;
+}
+
+.box {
+    background: lightblue;
+    padding: 1em;
+}
+
+.box2 {
+    margin: 1em 0 0 0 ;
+
+    margin: 1em 0;
+}

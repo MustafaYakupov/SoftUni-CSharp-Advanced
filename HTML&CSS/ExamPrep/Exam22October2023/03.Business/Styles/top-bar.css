@@ -1,0 +1,31 @@
+.top-bar {
+    color: white;
+}
+
+.top-bar .container {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.top-bar .nav {
+    display: flex;
+}
+
+.top-bar .nav li,
+.top-bar .nav  a {
+    display: inline-block;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.top-bar .nav ul li a {
+    padding: 1em;
+}
+
+.top-bar img {
+    width: 9%;
+    height: auto;
+}

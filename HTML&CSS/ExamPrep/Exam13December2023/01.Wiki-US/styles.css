@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css2?family=Agbalumo&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 12px/1.5 "Agbalumo", serif;
+}
+
+.site {
+    max-width: 870px;
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-top: 2em;
+}
+
+.container {
+    max-width: 870px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.header .container {
+    background-color: #d5ebea;
+    text-align: center;
+}
+
+.header .container h2 {
+    font-size: 3em;
+}
+
+.header .container p {
+    font-size: 1.5em;
+}
+
+.header .container span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    align-self: center;
+}
+
+.footer-heading .container {
+    max-width: 40%;
+    margin-left: 0;
+    padding-left: 3.5rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+.main .container {
+    display: flex;
+    gap: 1em;
+}
+
+.main .container .map {
+    border: 2px solid black;
+    padding: 1em;
+}
+
+.main .container .map .text {
+    padding-top: 1em;
+}
+
+.main .container .map .text h4 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.main .container .info p{
+    text-indent: 1em;
+    padding-top: 2em;
+    font-size: 1.1em;
+}
+
+.footer .container {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #d5ebea;
+    font-size: 1.4em;
+}
+
+.footer .container span {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+

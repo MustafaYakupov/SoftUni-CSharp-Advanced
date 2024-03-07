@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    padding: 2em;
+}
+
+article {
+    display: flex;
+    gap: 2em;
+    max-width: 1060px;
+    margin: 0 auto;
+    background-color: #85DCFF;
+    padding: 5em 2.4em;
+}
+
+article .content {
+    flex: 1 1 auto;
+    padding-top: 1em;
+}
+
+article .media {
+    flex: 0 0 370px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+article header h2 {
+    font-size: 3.1em;
+    font-weight: bold;
+    color: black;
+    padding-top: 2em;
+    padding-bottom: 2.5rem;
+    line-height: 1.1;
+}
+
+article section p {
+    padding-bottom: 2em;
+}
+
+article .buttons {
+    display: flex;
+    justify-content:flex-start;
+    gap: 1em;
+}
+
+article .button {
+    display: block;
+    padding: 8px 20px;
+    border-radius: 0.2em;
+    color: #214843;
+    text-decoration: none;
+    text-align: center;
+}
+
+article  .button.primary {
+    background-color: #42AA59;
+    border: 1px solid #214843;
+    color: #214843;
+}
+
+article  .button.primary:hover {
+    background-color: black;
+    color: white
+}
+
+article  .button.learn {
+    background-color: white;
+    color: #214843;
+}
+

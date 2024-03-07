@@ -1,0 +1,17 @@
+
+.footer   {
+    background-color: #1b9772;
+}
+
+.footer .container p {
+    text-align: center;
+    color: #56dbb1;
+    line-height: 2;
+    font-weight: bold;
+    padding: 4em 0;
+    letter-spacing: 3px;
+}
+
+.footer .container span {
+    color: white;
+}

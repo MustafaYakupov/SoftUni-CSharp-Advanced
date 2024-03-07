@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts - Sections</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 80em;
+            margin: 0 auto;
+            padding: 1em 0;
+        }
+
+        .section-top-bar {
+            background-color: darkred;
+            color: white;
+        }
+
+        .section-top-bar .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5em 0;
+        }
+
+        .section-header,
+        .section-banner {
+            background-color: #000;
+            color: white;
+        }
+
+        .section-footer {
+            background-color: #900;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="section-top-bar">
+        <div class="container">
+            <p>Left</p>
+            <p>Center</p>
+            <p>Right</p>
+        </div>
+    </div>
+
+    <header class="section-header">
+        <div class="container">
+            <p>Header</p>
+        </div>
+    </header>
+
+    <div class="section-banner">
+        <div class="container">
+            <p>Banner</p>
+        </div>
+    </div>
+
+    <section class="section-content">
+        <div class="container">
+            <p>Content</p>
+        </div>
+    </section>
+
+    <footer class="section-footer">
+        <div class="container">
+            <p>Footer</p>
+        </div>
+    </footer>
+
+</body>
+</html>

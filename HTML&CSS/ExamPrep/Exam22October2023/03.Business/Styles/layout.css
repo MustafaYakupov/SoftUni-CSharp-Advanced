@@ -1,0 +1,16 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: contain;
+    background-position: center -3em;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

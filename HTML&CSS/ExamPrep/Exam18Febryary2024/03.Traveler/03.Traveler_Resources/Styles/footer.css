@@ -1,0 +1,20 @@
+.footer {
+    height: 17.2rem;
+    background-color: #352B2A;
+    padding: 3rem;
+    padding-left: 8.8rem;
+}
+
+.footer .footer-logo {
+    max-width: 4%;
+    padding-bottom: 2.6rem;
+}
+
+.footer p {
+    color: white;
+    padding-bottom: 1.5rem;
+}
+
+.footer .copyright {
+    color: #534F54;
+}
