@@ -1,0 +1,38 @@
+﻿
+namespace CalculatorApp.Models
+{
+    public class Calculator
+    {
+        public Calculator()
+        {
+            this.Result = 0;
+        }
+
+        public void CalculateResult()
+        {
+            switch (this.Operand)
+            {
+                case "+":
+                    this.Result = this.LeftOperand + this.RightOperand;
+                    break;
+                case "-":
+                    this.Result = this.LeftOperand - this.RightOperand;
+                    break;
+                case "*":
+                    this.Result = this.LeftOperand * this.RightOperand;
+                    break;
+                case "/":
+                    this.Result = this.LeftOperand / this.RightOperand;
+                    break;
+            }
+        }
+
+        public decimal LeftOperand { get; set; }
+
+        public decimal RightOperand { get; set; }
+
+        public string Operand { get; set; }
+
+        public decimal Result { get; set; }
+    }
+}
